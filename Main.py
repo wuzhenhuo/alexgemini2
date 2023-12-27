@@ -33,7 +33,7 @@ with langcols[0]:
   'Русский', '日本語', '한국어', '中文', 'العربية',
   'हिन्दी', 'Türkçe', 'Tiếng Việt', 'Bahasa Indonesia',
   'ภาษาไทย', 'Română', 'Ελληνικά', 'Magyar', 'Čeština',
-  'Svenska', 'Norsk', 'Suomi', 'Dansk', 'हिन्दी', 'हिन्�'),index=1)
+  'Svenska', 'Norsk', 'Suomi', 'Dansk', 'हिन्दी', 'हिन्�'),index=0)
 
 if 'lang' not in st.session_state:
     st.session_state.lang = lang
